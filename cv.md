@@ -62,3 +62,7 @@ app.listen(port, () => {
 ### English level
 
 **B2** with speaking experience.
+
+### Other languages:
+- Russian (Native)
+- Polish (B2-C1)
