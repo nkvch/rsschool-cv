@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body, html {
+    background: white;
+    width: 100%;
+}
+
+.mainBlock {
+    background: white;
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    border-radius: 15px 15px 0 0;
+    height: 130px;
+    color: white;
+    font-weight: bolder;
+    background-image: linear-gradient( rgb(147, 147, 194), white);
+}
+
+.myName {
+    display: inline-block;
+    width: fit-content;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    -webkit-text-stroke: 0.1px black; 
+}
+
+.occupation {
+    display: inline-block;
+    padding-left: 20px;
+
+}
+
+.photoContact {
+    width: 100%;
+}
+
+.contact {
+    width: fit-content;
+    display: inline-block;
+    align-items:flex-start;
+    font-size: larger;
+}
+
+figure {
+    text-align: right;
+}
+
+.aboutMe {
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    background-image: linear-gradient( rgb(193, 193, 231), white);
+}
+
+.code {
+    background: rgb(218, 218, 248);
+    width: fit-content;
+    border-radius: 15px;
+    border: 2px solid rgb(144, 144, 202);
+    padding: 20px;
+}
