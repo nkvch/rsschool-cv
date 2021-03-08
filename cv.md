@@ -20,8 +20,7 @@ I am a student of [Warsaw University of Technology](https://www.pw.edu.pl/engpw)
     Using it from Linux terminal. Familiar with GitHub and Git-Lab.
 - **Linux terminal (Bash)**
 - **Python**
-    Have one small study project on **Tkinter** lib. Also a ROS-based study project.
-- **ROS** (Robot Operating System :) )
+    Have one small study project on **Flask**.
 - **C++**
     Have one group project-game.
 - **JS, Node JS**
@@ -29,7 +28,7 @@ I am a student of [Warsaw University of Technology](https://www.pw.edu.pl/engpw)
 - **Java**
     Familiar with syntax.
 - **SQL basics**
-- **Non-relating DB (MongoDB) basics**
+- **Non-relational DB (MongoDB) basics**
 
 ### Example code (server on NodeJS (Express) ):
 ```
@@ -65,4 +64,4 @@ app.listen(port, () => {
 
 ### Other languages:
 - Russian (Native)
-- Polish (B2-C1)
+- Polish (Fluent)
