@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet"
+     href="style.css">
+</head>
+<body>
+    <div class="mainBlock">
+        <header>
+        <h1 class="myName">Stanilau Stankevich</h1>
+        <h3 class="occupation">JS Front-End developer (student)</h3>
+        </header>
+        <table class="photoContact">
+        <td>
+        <ul class="contact">
+            <lh><h4>Contact</h4></lh>
+            <li><p>GitHub</p>
+            <p>  <a href="https://github.com/nkvch">https://github.com/nkvch</a></p>
+            </li>
+            <li><p>Email</p>
+            <p>  nkvch.st@gmail.com</p>
+            </li>
+        </ul></td>
+        <td>
+        <figure>
+            <img src="photo.jpg" width="300px">
+        </figure>
+        </td>
+        </table>
+        <article class="aboutMe">
+        <h3>About me</h3>
+        <p>I am a student of <a href="https://www.pw.edu.pl/engpw"><strong>Warsaw University of Technology</strong></a> studying the Automatics and Robotics. Besides of that I attend the <a href="https://rs.school/"><strong>RSSchool</strong></a> course of JS Front-End developing. I successfully combine the studying in the university with other activities. Currenctly <strong>interested</strong> in JS Front-End developing (already finished one course in the university related to the web-dev and now start the following in the university and other one in <strong>RSSchool</strong>). I perfectly learn new things on my own from web-sources. </p>
+        </article>
+        <h3>Familiar with</h3>
+        <ul>
+            <li><strong>Git</strong><p>Using it from Linux terminal. Familiar with GitHub and Git-Lab</p></li>
+            <li><strong>Linux terminal (Bash)</strong></li>
+            <li><strong>Python</strong><p>Have one small study project on <strong>Flask</strong>.</p></li>
+            <li><strong>C++</strong><p>Have one group project-game</p></li>
+            <li><strong>JS, Node JS</strong><p>Have a small fullstack example-app written in NodeJS (Express framework)</p></li>
+            <li><strong>Java</strong><p>Familiar with syntax</p></li>
+            <li><strong>SQL basics</strong></li>
+            <li><strong>Non-relational DB (MongoDB) basics</strong></li>
+        </ul>
+        <h3>Example code (server on NodeJS (Express) ):</h3>
+        <pre class="code"><code>        <span class="hljs-keyword">const</span> express = <span class="hljs-keyword">require</span>(<span class="hljs-string">'express'</span>)
+        <span class="hljs-keyword">const</span> app = express();
+        <span class="hljs-keyword">const</span> port = <span class="hljs-number">3000</span>
+        
+        <span class="hljs-keyword">const</span> {MongoClient} = <span class="hljs-keyword">require</span>(<span class="hljs-string">'mongodb'</span>);
+        <span class="hljs-keyword">var</span> url = <span class="hljs-string">"mongodb://localhost:27017"</span>;
+        
+        app.<span class="hljs-keyword">use</span>((req, res, next) =&gt; {
+            console.log(req.method, req.url);
+            next();
+            });
+        
+        <span class="hljs-keyword">var</span> bodyParser = <span class="hljs-keyword">require</span>(<span class="hljs-string">'body-parser'</span>);
+        app.<span class="hljs-keyword">use</span>(bodyParser.json()); <span class="hljs-comment">// support json encoded bodies</span>
+        app.<span class="hljs-keyword">use</span>(bodyParser.urlencoded({ extended: <span class="hljs-keyword">true</span> })); <span class="hljs-comment">// support encoded bodies</span>
+        
+        
+        app.<span class="hljs-keyword">use</span>(express.<span class="hljs-keyword">static</span>(<span class="hljs-string">'static'</span>))
+        
+        app.listen(port, () =&gt; {
+            console.log(`Example app listening at ` + 
+                        `http:<span class="hljs-comment">//localhost:${port}`   );</span>
+            })</code></pre>
+        <h3 id="english-level">English level</h3>
+        <p><strong>B2</strong> with speaking experience.</p>
+        <h4 id="other-languages">Other languages:</h4>
+        <p><strong>Russian</strong> (native)</p>
+        <p><strong>Polish</strong> (fluent)</p>
+    </div>
+</body>
+</html>
